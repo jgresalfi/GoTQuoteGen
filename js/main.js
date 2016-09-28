@@ -21,6 +21,7 @@ $(document).ready(function() {
             console.log(response.quote);
             $(".quote").html("<h2>" + response.quote + "</h2>");
             $(".author").html("<h3>" + " - " + response.author + "</h3>");
+            $("#tweet").html('<a href="http://twitter.com/home/?status=' + response.quote + '">Tweet this!</a>');
         });
     })
 })
