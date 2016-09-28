@@ -4,7 +4,10 @@ GENERAL STYLES
 
 html,
 body {
-    min-height: 100vh;
+		color: #fff;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -26,9 +29,18 @@ body {
 }
 
 body {
-	font-size: 16px;
+    font-size: 16px;
 }
 
-.author {
-	text-align: center;
+video {
+    min-width: 100vw;
+}
+
+.btn-grp {
+    width: 75%;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
