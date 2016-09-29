@@ -51,11 +51,15 @@ video {
 .btn-grp {
     width: 70vw;
     position: absolute;
-    top: 35vh;
+    top: 45vh;
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
     text-align: center;
+}
+
+.btn-grp-show {
+	top: 35vh;
 }
 
 button {
