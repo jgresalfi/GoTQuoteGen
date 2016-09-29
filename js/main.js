@@ -1,6 +1,7 @@
 'use strict';
 
 $(document).ready(function() {
+    var twitLink;
     $("#btn").on("click", function() {
         var settings = {
             "async": true,
@@ -18,10 +19,14 @@ $(document).ready(function() {
             }
         }
         $.getJSON(settings).done(function(response) {
-            console.log(response.quote);
+            twitLink = "https://twitter.com/home/?status=" + response.quote;
             $(".quote").html("<h2>" + response.quote + "</h2>");
             $(".author").html("<h3>" + " - " + response.author + "</h3>");
-            $("#tweet").html('<a href="http://twitter.com/home/?status=' + response.quote + '">Tweet this!</a>');
+            $("#tweet").html('<button id="tweeter">Tweet this!</button>');
         });
-    })
-})
+    });
+    $("#tweet").on("click", "button", function() {
+        console.log("Give me some tassle!");
+        window.open(twitLink, 'newwindow', 'width=300, height=250');
+    });
+});
