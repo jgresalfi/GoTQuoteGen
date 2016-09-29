@@ -26,7 +26,6 @@ $(document).ready(function() {
         });
     });
     $("#tweet").on("click", "button", function() {
-        console.log("Give me some tassle!");
         window.open(twitLink, 'newwindow', 'width=300, height=250');
     });
 });
