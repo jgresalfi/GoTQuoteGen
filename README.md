@@ -1,2 +1,2 @@
-# GoTQuoteGen
-Random or Character-based quote generator.
+# Random Quote Machine
+Random quote generator with vanilla CSS and jQuery.
