@@ -32,6 +32,10 @@ body {
     font-size: 16px;
 }
 
+a {
+    color: rgb(89%, 61%, 35%);
+}
+
 video {
     position: fixed;
     top: 50%;
@@ -59,7 +63,7 @@ video {
 }
 
 .btn-grp-show {
-	top: 35vh;
+    top: 35vh;
 }
 
 button {
@@ -81,4 +85,11 @@ h2 {
 
 .author {
     font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    color: rgb(89%, 61%, 35%);
 }

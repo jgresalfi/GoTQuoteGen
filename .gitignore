@@ -38,3 +38,6 @@ jspm_packages
 
 # Media images and video files
 media
+
+# Misc
+.DS_Store

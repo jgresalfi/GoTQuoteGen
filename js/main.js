@@ -10,7 +10,6 @@ $(document).ready(function() {
             "method": "POST",
             "headers": {
                 "cache-control": "no-cache",
-                "postman-token": "0bfbd25b-5b2a-60be-bfe5-efe940d10583",
                 "X-Mashape-Key": "9zwFYYC4i1msh2sU64WFOsp524C9p1woBdkjsnZwD7WKQR3vzj",
                 "Content-type": "application/json; charset=utf-8",
                 "dataType": "json",
